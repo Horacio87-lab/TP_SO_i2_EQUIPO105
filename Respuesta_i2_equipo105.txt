@@ -8,3 +8,8 @@ Hector Franco Sarabia (GAMMA)
 a-Primero lo que hicimos fue sincronizar el fork desde GitHub utilizando la opción Sync fork para traer los cambios del repositorio original. Luego en nuestra carpeta, se ejecuta el comando git pull para descargar y actualizar los cambios en la carpeta local.
 
 b-Si, se puede ya que los repositorios públicos se pueden utilizar. Pero no es lo mas recomendado, lo mejor siempre es sincronizarlos con el original
+
+
+c-si, se puede. pero seria lo mismo que la respuesta b
+
+d-depende, si cuando actualizo el fork y el repositorio original cambio lo que yo cambie se va a perder. pero si el repositorio original no cambio lo que yo cambie, no se pierde
