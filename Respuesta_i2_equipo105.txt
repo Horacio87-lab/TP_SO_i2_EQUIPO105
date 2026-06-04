@@ -13,3 +13,47 @@ b-Si, se puede ya que los repositorios públicos se pueden utilizar. Pero no es 
 c-si, se puede. pero seria lo mismo que la respuesta b
 
 d-depende, si cuando actualizo el fork y el repositorio original cambio lo que yo cambie se va a perder. pero si el repositorio original no cambio lo que yo cambie, no se pierde
+
+e- 
+
+Cuando se refiere a hacer push:
+git add . o archivo a agregar
+git commit -m "comentario"
+git push
+
+BETA - Horacio Gabriel Benitez
+Crea repositorio llamado “TP_SO_i2_Equipo105” con un readme, lo clona en su carpeta local, agrega el archivo fork.txt y Hace el push con el comentario "archivo fork".
+
+GAMMA - Hector Franco Sarabia
+Hace un fork del repositorio de BETA desde github, lo clona en su carpeta local con el comando "git clone https://github.com/hectorsarabia1/TP_SO_i2_EQUIPO105.git" en su bash y agrega los datos suyos en el archivo fork.txt, hace el push con el comentario "Agrego datos GAMMA"y luego hace el pull request desde github.
+
+BETA - Horacio Gabriel Benitez
+Acepta el Pull request de GAMMA modificando el archivo fork.txt desde gtihub
+
+ALFA - Sebastián Rulet
+Hace un fork del repositorio de BETA desde github, lo clona en su carpeta local con el comando "git clone https://github.com/RuletSeba/TP_SO_i2_EQUIPO105.git" en su bash y agrega sus datos debajo de los de GAMMA en el archivo fork.txt, hace el push con el comentario "Agrego datos ALFA"y luego hace el pull request desde github.
+
+BETA - Horacio Gabriel Benitez
+Acepta el Pull request de ALFA modificando el archivo fork.txt desde github
+hace un git pull en su bash y agrega el archivo NuevoDato.txt, hace el push del mismo con el comentario "NuevoDato".
+
+ALFA - Sebastián Rulet
+Verifica que puede ver el archivo.
+
+GAMMA - Hector Franco Sarabia
+Verifica que puede ver el archivo.
+
+BETA - Horacio Gabriel Benitez
+Teniendo ya todo revisado, en su carpeta local agrega el archivo “respuesta_I2_Equipo105.txt” con los datos de los participantes, hace un push con el comentario "agrego archivo de respuesta".
+
+GAMMA - Hector Franco Sarabia
+Hace el merge de los cambios del respositorio de BETA y hace un git pull en su bash, luego entra al archivo y responde las preguntas a y b. Luego, hace un push con el comentario "Respuesta A y B". Hace el pull request hacia BETA.
+
+BETA - Horacio Gabriel Benitez
+Acepta el pull request de GAMMA, hace el git pull en su bash, agrega las respuestas c y d, guarda el archivo y hace el push con el comentario "respuesta c y d".
+
+ALFA - Sebastián Rulet
+Hace el merge de los cambios del respositorio de BETA y hace un git pull en su bash, luego entra al archivo y responde las pregunta e. Luego, hace un push con el comentario "Respuesta E". Hace el pull request hacia BETA.
+
+BETA - Horacio Gabriel Benitez
+Acepta el pull request de ALFA terminando con la segunda interaccion.
